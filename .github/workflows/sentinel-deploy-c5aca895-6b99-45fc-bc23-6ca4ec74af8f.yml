@@ -28,7 +28,7 @@ jobs:
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_c5aca8956b9945fcbc236ca4ec74af8f }}
       contentTypes: 'AnalyticsRule,AutomationRule,HuntingQuery,Parser,Playbook,Workbook'
-      branch: 'master'
+      branch: 'contoso'
       sourceControlId: 'c5aca895-6b99-45fc-bc23-6ca4ec74af8f'
       rootDirectory: '${{ github.workspace }}'
       githubAuthToken: ${{ secrets.GITHUB_TOKEN }}
