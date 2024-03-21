@@ -11,7 +11,7 @@ name: Deploy Content to sentinellle [c5aca895-6b99-45fc-bc23-6ca4ec74af8f]
 
 on: 
   push:
-    branches: [ master ]
+    branches: [ contoso ]
     paths:
     - '**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
