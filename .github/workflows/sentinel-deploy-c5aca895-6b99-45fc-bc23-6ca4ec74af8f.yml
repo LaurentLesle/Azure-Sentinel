@@ -25,7 +25,6 @@ jobs:
       resourceGroupName: 'sentinel'
       workspaceName: 'sentinellle'
       workspaceId: '2fb9985b-aeca-461c-817f-11177158d5a7'
-      directory: '${{ github.workspace }}'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_c5aca8956b9945fcbc236ca4ec74af8f }}
       contentTypes: 'AnalyticsRule,AutomationRule,HuntingQuery,Parser,Playbook,Workbook'
