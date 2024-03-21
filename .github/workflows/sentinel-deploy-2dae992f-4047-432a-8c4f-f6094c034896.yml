@@ -13,7 +13,8 @@ on:
   push:
     branches: [ contoso ]
     paths:
-    - '**'
+    - 'sentinel-deployment.config'
+    - 'Contoso/**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-2dae992f-4047-432a-8c4f-f6094c034896.yml'
 
