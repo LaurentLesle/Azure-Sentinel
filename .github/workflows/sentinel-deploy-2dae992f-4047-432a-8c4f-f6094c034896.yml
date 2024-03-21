@@ -24,7 +24,7 @@ jobs:
       resourceGroupName: 'sentinel'
       workspaceName: 'sentinellle'
       workspaceId: '2fb9985b-aeca-461c-817f-11177158d5a7'
-      directory: '${{ github.workspace }}'
+      directory: '${{ github.workspace }}\Contoso'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_2dae992f4047432a8c4ff6094c034896 }}
       contentTypes: 'AnalyticsRule,AutomationRule,HuntingQuery,Parser,Playbook,Workbook'
