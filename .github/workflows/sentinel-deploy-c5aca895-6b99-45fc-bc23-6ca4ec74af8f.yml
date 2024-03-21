@@ -21,6 +21,7 @@ jobs:
   deploy-content:
     runs-on: windows-latest
     env:
+      directory: '${{ github.workspace }}/Contoso'
       resourceGroupName: 'sentinel'
       workspaceName: 'sentinellle'
       workspaceId: '2fb9985b-aeca-461c-817f-11177158d5a7'
